@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanue's Farm - Hyperlocal</title>
+    <meta name="description" content="Nanue's Farm - Hyperlocal produce in Raleigh, NC">
+    <link rel="icon" type="image/jpeg" href="NanueLogo1.jpeg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .logo-container {
+            margin-bottom: 50px;
+        }
+
+        .logo {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+        }
+
+        .contact-info {
+            text-align: center;
+            color: #2d4a2d;
+        }
+
+        .contact-info h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #1a3a1a;
+            letter-spacing: 1px;
+        }
+
+        .contact-item {
+            margin: 15px 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .contact-item a {
+            color: #2d4a2d;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: #4a7c4a;
+            text-decoration: underline;
+        }
+
+        .address {
+            font-style: normal;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background-color: #2d4a2d;
+            margin: 30px auto;
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                max-width: 300px;
+            }
+
+            .contact-info h2 {
+                font-size: 1.25rem;
+            }
+
+            .contact-item {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="logo-container">
+            <img src="NanueLogo1.jpeg" alt="Nanue's Farm - Hyperlocal" class="logo">
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+
+            <div class="divider"></div>
+
+            <address class="contact-item address">
+                518 S West St<br>
+                Raleigh, NC 27601
+            </address>
+
+            <p class="contact-item">
+                <a href="tel:+19197804138">(919) 780-4138</a>
+            </p>
+
+            <p class="contact-item">
+                Trevor Spear<br>
+                <a href="mailto:trevor@nanuesfarm.com">trevor@nanuesfarm.com</a>
+            </p>
+        </div>
+    </main>
+</body>
+</html>
